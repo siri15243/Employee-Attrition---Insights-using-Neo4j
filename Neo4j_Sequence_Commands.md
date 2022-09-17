@@ -82,5 +82,3 @@ return n.Attrition as Attrition, count(n) as Employee_Count, n.avgInc as avg, n.
 where n.Attrition = "Yes"
 return  count(n) as Employee_Count , n.Leaves as Leaves
 order by Leaves desc
-
-*  
